@@ -1,0 +1,72 @@
+// #include<stdio.h>
+// int main()
+// {
+//    char name[] = "omkar";
+   
+//    //printing the name
+
+//    printf("you%s",name);
+//    return 0;
+
+
+// }
+
+
+// #include<stdio.h>
+// int main()
+// {
+//   char name[] = "omkar";
+//   //select one letter
+  
+//    printf("%c",name[3]);
+//    return 0;
+
+
+// }
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     char name[] = "dora";
+
+//    //update the first char of str
+//    name[0] = 'b';
+//    printf("%c",name[0]);
+//    return 0;
+
+// }
+
+
+// #include<stdio.h>
+// #include<string.h>
+// int main()
+// {
+//   char name[]= "omkar";
+//   // words length
+
+//   printf("%d",strlen(name));
+//   return 0;
+// }
+
+
+// #include<stdio.h>
+// int main()
+// {
+//      char name[6];
+//     //readthe string output form user
+//      scanf("%s",name);
+//      printf("%s",name);
+//      return 0;
+//}
+
+
+#include<stdio.h>
+int main()
+{
+  const char *str = "hello world ";
+
+  printf("%s",str);
+  return 0;
+
+}
