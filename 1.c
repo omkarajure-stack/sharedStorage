@@ -159,18 +159,53 @@
 
 
 
-#include<stdio.h>
-int main ()
-{
-     int marks ;
-     printf("marks\n");
-     scanf("%d",&marks);
-     if(marks >= 35){
-                         printf("pass");
-                    }
-            else{
-             printf("fail");
-            }
-            return 0;
-}
+// #include<stdio.h>
+// int main ()
+// {
+//      int marks ;
+//      printf("marks\n");
+//      scanf("%d",&marks);
+//      if(marks >= 35){
+//                          printf("pass");
+//                     }
+//             else{
+//              printf("fail");
+//             }
+//             return 0;
+// }
 
+
+
+
+
+#include<stdio.h>
+int main()
+{
+  int day;
+  for(int i = 1;i <= 7;i++){
+  switch(i){
+                case 1:
+                printf("sunday\n");
+                break;
+                case 2:
+                printf("monday\n");
+                break;
+                case 3:
+                printf("thusday\n");
+                break;
+                case 4:
+                printf("wensday\n");
+                break;
+                case 5:
+                printf("thyrsday\n");
+                break;
+                case 6:
+                printf("fryday\n");
+                break;
+                case 7:
+                printf("saturday\n");
+                break;
+              }
+            }
+              return 0;
+}
