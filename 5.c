@@ -209,6 +209,51 @@
 
 
 
+// #include<stdio.h>
+// int main()
+// {
+//     int i,j;
+//   int sum = 0;
+//   int a[2][2] = {
+//     {1,2},{3,4}
+//   };
+//      for(int i = 0;i < 2;i++)
+//      {
+//         for(int j = 0;j < 2;j++)
+//         {
+//             sum = sum + a[i][j]; 
+//         }
+//      }   
+//      printf("total sum = %d\n",sum);
+//      return 0;
+// }
+
+
+
+#include<stdio.h>
+int main()
+{
+    int i,j;
+    int a[2][3] = {
+        {1,2,3},
+        {4,5,6}
+    };
+    for(int i = 0;i < 3;i++)
+    {
+        for(int j = 0;j < 2;j++)
+        {
+            printf("%d\t",a[j][i]);
+        }
+    
+    printf("\n");
+    }
+     return 0;
+}
+
+
+
+
+
 
 
 
