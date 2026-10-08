@@ -110,20 +110,24 @@
 
 
 
-#include<stdio.h>
-#include<string.h>
-int main ()
-{
-    char a[] = "education";
-    int len = strlen(a);
-    int count = 0;
-    for(int i = 0;i < len;i++)
-    {
-        if(a[i] == 'a' || a[i] == 'e' || a[i] == 'i' || a[i] == 'o' || a[i] == 'u')
-        {
-            count ++;
-        }
-    }
-    printf("totals vovles%d\n",count);
-    return 0;
-}
+// 
+
+
+
+// #include<stdio.h>
+// #include<string.h>
+// int main ()
+// {
+//     char a[] = "education";
+//     int len = strlen(a);
+//     int count = 0;
+//     for(int i = 0;i < len;i++)
+//     {
+//         if(a[i] == 'a' || a[i] == 'e' || a[i] == 'i' || a[i] == 'o' || a[i] == 'u')
+//         {
+//             count ++;
+//         }
+//     }
+//     printf("totals vovles%d\n",count);
+//     return 0;
+// }
